@@ -6,7 +6,14 @@ class Header extends Component {
 
   renderLinks() {
     return (
-      <li>Teste</li>
+      [
+        <li className="nav-item" key={1}>
+          <Link className="nav-link signin" to="/myplans">Meus Planos</Link>
+        </li>,
+        <li className="nav-item" key={2}>
+          <Link className="nav-link signin" to="/signin">Entrar</Link>
+        </li>
+      ]
     );
   }
 
