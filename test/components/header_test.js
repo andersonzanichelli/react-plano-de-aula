@@ -8,7 +8,7 @@ describe('Header' , () => {
     component = renderComponent(Header);
   });
 
-  it('renders something', () => {
+  it('renders header', () => {
     expect(component).to.exist;
   });
 
