@@ -19,4 +19,8 @@ describe('App' , () => {
   it('shows a header', () => {
     expect(component.find('.table')).to.exist;
   });
+
+  it('shows a tool bar', () => {
+    expect(component.find('.tools')).to.exist;
+  });
 });

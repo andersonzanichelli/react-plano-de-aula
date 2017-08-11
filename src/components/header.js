@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       [
         <li className="nav-item" key={1}>
-          <Link className="nav-link signin" to="/myplans">Meus Planos</Link>
+          <Link className="nav-link myplans" to="/myplans">Meus Planos</Link>
         </li>,
         <li className="nav-item" key={2}>
           <Link className="nav-link signin" to="/signin">Entrar</Link>
